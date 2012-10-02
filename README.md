@@ -2,7 +2,6 @@
 -------------
 This is Wordpress capistrano Deployment recipe that I fork from [Nathaniel](https://github.com/nathanielks) [Wordpress capirtrano Deploy](https://github.com/nathanielks/Wordpress-Capistrano-Deploy). So special thanks to you!
 
-
 ##What is Capistrano?##
 -------------
 According to [Capistrano official site](https://github.com/capistrano/capistrano), Capistrono is a utility and framework for executing **commands** in parallel on **multiple remote machines**, via **SSH**. Is that mean anything that you on the command line, you can integrate with Capistrano? 
