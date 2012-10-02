@@ -1,11 +1,9 @@
 # Wordpress Capistrano Deploy #
-
 -------------
 This is Wordpress capistrano Deployment recipe that I fork from [Nathaniel](https://github.com/nathanielks) [Wordpress capirtrano Deploy](https://github.com/nathanielks/Wordpress-Capistrano-Deploy). So special thanks to you!
 
 
 ##What is Capistrano?##
-
 -------------
 According to [Capistrano official site](https://github.com/capistrano/capistrano), Capistrono is a utility and framework for executing **commands** in parallel on **multiple remote machines**, via **SSH**. Is that mean anything that you on the command line, you can integrate with Capistrano? 
 
@@ -13,7 +11,6 @@ My answer is **YES** ……..let 's get started!
 
 
 ## What you will need on your local machine? ##
-
 -------------
 * Ruby RVM
 * Capistrano
@@ -27,7 +24,6 @@ My answer is **YES** ……..let 's get started!
 
 
 ## What can you do with this recipe? ##
-
 ----------------
 * Setup releases, shared folders on QA/Production server
 * Create current symlink and point to the current release
@@ -39,7 +35,6 @@ My answer is **YES** ……..let 's get started!
 *** I'm putting a video tutorial together soon.. Please stay tune! ***
 
 ## How to use cap commands?##
-
 -----------------
 ### QA or Staging ###
 
@@ -60,5 +55,3 @@ My answer is **YES** ……..let 's get started!
 	* cap prod db:pull
 	* cap prod files:sync_up
 	* cap prod files:sync_down
-
-
