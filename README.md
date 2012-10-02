@@ -1,5 +1,5 @@
 # Wordpress Capistrano Deploy #
--------------
+---------------------------------------
 According to [Capistrano official site](http://capify.org), Capistrono is a utility and framework for executing **commands** in parallel on **multiple remote machines**, via **SSH**. Is that mean anything that you do on the command line, you can make with work with Capistrano? 
 
 My answer is **YES**!
@@ -7,7 +7,7 @@ My answer is **YES**!
 Let 's get started!
 
 ## What you will need on your local machine? ##
--------------
+---------------------------------------
 * Ruby RVM
 * Capistrano
 * railsless-deploy
@@ -19,7 +19,7 @@ Let 's get started!
 * You are using SSH to access the remote servers.
 
 ## What can you do with this recipe? ##
-----------------
+---------------------------------------
 	* Setup releases, shared folders on QA/Production server
 	* Create current symlink and point to the current release
 	* Roll back to the previous release (Not only you can roll back files but also you can roll back Database!)
@@ -30,7 +30,7 @@ Let 's get started!
 *** I'm putting a video tutorial together soon...so stay tune! ***
 
 ## How to use cap commands?##
------------------
+---------------------------------------
 ### QA or Staging ###
 
 	* cap deploy:setup 
@@ -52,7 +52,7 @@ Let 's get started!
 	* cap prod files:sync_down
 
 ## Special Thanks ##
---------------------
+---------------------------------------
 * [Dustin Fadler](https://github.com/dfadler) - He was the one who introduced me to Capistrano.
 * [Nathaniel](https://github.com/nathanielks) - I fork the project from him
 
